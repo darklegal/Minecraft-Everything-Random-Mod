@@ -33,6 +33,8 @@ The goal of the Everything Random mod is to add various random things to Minecra
 # Sneak Peaks
 ###### Special before-hand looks at things like textures or in-game things
 
+
+
 #### Nether Reactor Core Texture
 ![NetherReactorCore](https://i.imgur.com/YYhq3OP.png)
 ###### A custom mix of the old and new official textures of the Nether Reactor Core
