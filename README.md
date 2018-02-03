@@ -1,3 +1,5 @@
+![Everything Random Logo](Minecraft-Everything-Random-Mod/everythingrandomlogo.png)
+
 # Goal
 
 The goal of the Everything Random mod is to add various random things to Minecraft. The mod does not have one set theme or anything like that besides stuff that might be cool to have.
