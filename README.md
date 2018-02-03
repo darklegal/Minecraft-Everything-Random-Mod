@@ -1,4 +1,4 @@
-![Everything Random Logo](Minecraft-Everything-Random-Mod/everythingrandomlogo.png)
+![Everything Random Logo](https://imgur.com/0dSi9Nl)
 
 # Goal
 
