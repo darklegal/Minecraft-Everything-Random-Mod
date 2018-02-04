@@ -1,2 +1,13 @@
+//Items
+item.ingot_lightmetal.name=Lightmetal Ingot
+item.ingot_darkmetal.name=Darkmetal Ingot
+item.ingot_daymetal.name=Daymetal Ingot
+item.ingot_nightmetal.name=Nightmetal Ingot
+item.ingot_randominium_raw.name=Rough Randominium Ingot
+item.ingot_randominium_smooth.name=Refined Randominium Ingot
+item.nugget_randominium_raw.name=Rough Randominium Nugget
+item.nugget_randominium_smooth.name=Refined Randominium Nugget
+item.bit_randominium_raw.name=Rough Randominium Bit
+item.bit_randominium_smooth.name=Refined Randominium Bit
 
-item.ingot_lightmetal.name=Lightmetal Ingot 
+//Blocks
