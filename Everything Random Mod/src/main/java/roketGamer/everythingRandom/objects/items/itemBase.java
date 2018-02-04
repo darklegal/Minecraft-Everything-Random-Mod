@@ -5,7 +5,6 @@ import net.minecraft.item.Item;
 import roketGamer.everythingRandom.main;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.iHasModel;
-import roketGamer.everythingRandom.proxy.clientProxy;
 
 public class itemBase extends Item implements iHasModel {
 	
@@ -14,6 +13,7 @@ public class itemBase extends Item implements iHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.MATERIALS);
+		
 		itemInit.ITEMS.add(this);
 		
 	}

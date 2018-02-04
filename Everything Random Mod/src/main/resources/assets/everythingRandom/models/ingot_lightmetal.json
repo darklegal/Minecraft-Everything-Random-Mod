@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "everythingRandom:items/ingot_lightmetal"
+        "layer0": "everythingRandom:textures/items/ingot_lightmetal"
     }
 }
