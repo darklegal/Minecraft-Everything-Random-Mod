@@ -9,5 +9,7 @@ item.nugget_randominium_raw.name=Rough Randominium Nugget
 item.nugget_randominium_smooth.name=Refined Randominium Nugget
 item.bit_randominium_raw.name=Rough Randominium Bit
 item.bit_randominium_smooth.name=Refined Randominium Bit
+item.everything_random_guide.name=Everything Random Guide
 
 //Blocks
+tile.ore_randominium.name=Randominium Ore

@@ -1,0 +1,99 @@
+{
+	"__comment": "Designed by Roket333 with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"Book": "everythingRandom:items/guide"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 4, 0, 2.5 ],
+			"to": [ 12, 0.5, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 0.125, 0.25, 0.8125, 0.75 ], "texture": "#Book", "rotation": 90 },
+				"up": { "uv": [ 0.125, 0.25, 0.8125, 0.75 ], "texture": "#Book", "rotation": 90 },
+				"north": { "uv": [ 0.0625, 0.1875, 0.125, 0.8125 ], "texture": "#Book" },
+				"south": { "uv": [ 0.0625, 0.1875, 0.125, 0.8125 ], "texture": "#Book" },
+				"west": { "uv": [ 0.125, 0.1875, 0.75, 0.25 ], "texture": "#Book" },
+				"east": { "uv": [ 0.0625, 0.1875, 0.9375, 0.25 ], "texture": "#Book", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 4, 0.5, 2.5 ],
+			"to": [ 4.5, 2.5, 13.5 ],
+			"faces": {
+				"north": { "uv": [ 0.1875, 0.75, 0.25, 0.875 ], "texture": "#Book" },
+				"south": { "uv": [ 0.1875, 0.75, 0.3125, 0.9375 ], "texture": "#Book" },
+				"west": { "uv": [ 0.0625, 0.75, 0.9375, 0.875 ], "texture": "#Book" },
+				"east": { "uv": [ 0.0625, 0.75, 0.9375, 0.875 ], "texture": "#Book" }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 4.5, 0.5, 3 ],
+			"to": [ 11.5, 2.5, 13 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 0.4375, 0.125 ], "texture": "#Book" },
+				"south": { "uv": [ 0.5625, 0, 1, 0.125 ], "texture": "#Book" },
+				"east": { "uv": [ 0.125, 0, 0.75, 0.125 ], "texture": "#Book" }
+			}
+		},
+		{
+			"__comment": "PlaneY5",
+			"from": [ 5, 3, 4 ],
+			"to": [ 11, 3.001, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3, 1 ], "texture": "#Book" },
+				"up": { "uv": [ 0, 1.500001, 15.5, 14.5 ], "texture": "#Book" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 4, 2.5, 2.5 ],
+			"to": [ 12, 3, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 0.125, 0.25, 0.8125, 0.75 ], "texture": "#Book", "rotation": 90 },
+				"up": { "uv": [ 0.125, 0.25, 0.8125, 0.75 ], "texture": "#Book", "rotation": 90 },
+				"north": { "uv": [ 0.0625, 0.1875, 0.125, 0.8125 ], "texture": "#Book" },
+				"south": { "uv": [ 0.0625, 0.1875, 0.125, 0.8125 ], "texture": "#Book" },
+				"west": { "uv": [ 0.125, 0.1875, 0.75, 0.25 ], "texture": "#Book" },
+				"east": { "uv": [ 0.0625, 0.1875, 0.9375, 0.25 ], "texture": "#Book", "rotation": 90 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 111, 0, 0 ],
+			"translation":  [ 0, 2.0869, 5.5652 ],
+			"scale":  [ 0.75, 0.75, 0.75 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 111, 0, 0 ],
+			"translation":  [ 0, 2.0869, 5.5652 ],
+			"scale":  [ 0.75, 0.75, 0.75 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 83, 0, 61 ],
+			"translation":  [ -4.867, 2.7826, 0 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 83, 0, -27 ],
+			"translation":  [ 9.046, 2.7826, 0 ]
+		},
+		"gui": {
+			"rotation":  [ 30, -45, 0 ],
+			"translation":  [ 0, 5.5652, 0 ]
+		},
+		"head": {
+			"translation":  [ 0, 14.608, 0 ]
+		},
+		"ground": {
+			"translation":  [ 0, 4.8695, 0 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 0, 180 ],
+			"translation":  [ 0, 0, -6.956 ]
+		}
+	}
+}

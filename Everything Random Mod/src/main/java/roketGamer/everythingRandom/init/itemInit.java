@@ -20,5 +20,6 @@ public class itemInit {
 	public static final Item RANDOMITE_NUGGET_SMOOTH = new itemBase("nugget_randominium_smooth");
 	public static final Item RANDOMITE_INGOT_RAW = new itemBase("ingot_randominium_raw");
 	public static final Item RANDOMITE_INGOT_SMOOTH = new itemBase("ingot_randominium_smooth");
-
+	public static final Item EVERYTHING_RANDOM_GUIDE = new itemBase("everything_random_guide");		
+	
 }

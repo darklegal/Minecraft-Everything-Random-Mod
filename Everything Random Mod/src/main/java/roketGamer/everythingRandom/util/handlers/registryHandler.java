@@ -1,10 +1,12 @@
 package roketGamer.everythingRandom.util.handlers;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.iHasModel;
 
@@ -19,6 +21,13 @@ public class registryHandler {
 	}
 	
 	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+		
+		event.getRegistry().registerAll(blockInit.BLOCKS.toArray(new Block[0]));
+		
+	}
+	
+	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
 		
 		for(Item item : itemInit.ITEMS) {
@@ -26,6 +35,16 @@ public class registryHandler {
 			if(item instanceof iHasModel) {
 				
 				((iHasModel)item).registerModels();
+				
+			}
+			
+		}
+		
+		for(Block block : blockInit.BLOCKS) {
+			
+			if(block instanceof iHasModel) {
+				
+				((iHasModel)block).registerModels();
 				
 			}
 			
