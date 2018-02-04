@@ -12,12 +12,14 @@ import roketGamer.everythingRandom.util.iHasModel;
 
 public class blockBase extends Block implements iHasModel{
 	
-	public blockBase(String name, Material material) {
+	public blockBase(String name, Material material, Float resistance, Float hardness, String toolClass, int level) {
 		
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setHardness(hardness);
+		setResistance(resistance);
 		
 		blockInit.BLOCKS.add(this);
 		itemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
