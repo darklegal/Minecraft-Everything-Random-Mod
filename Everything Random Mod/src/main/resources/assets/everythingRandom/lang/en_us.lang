@@ -19,7 +19,7 @@ item.sharp_diamond_sword.name=Sharpened Diamond Sword
 item.creative_sword.name=Creative Sword
 
 //Blocks
-tile.ore_randominium.name=Randominium Ore
+tile.ores_randominium.name=Randominium Ore
 tile.block_randominium_raw.name=Rough Randominium Block
 tile.block_randominium_smooth.name=Refined Randominium Block
 tile.block_lightmetal.name=Lightmetal Block
