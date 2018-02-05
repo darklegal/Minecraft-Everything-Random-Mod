@@ -17,6 +17,7 @@ The goal of the Everything Random mod is to add various random things to Minecra
 - [ ] Void Bin that you can use to delete items
 - [ ] Icy Cobblestone
 - [ ] Abandoned Castles in the tundras and plains
+- [ ] Sharpened Swords
 
 # Things that might be added, maybe not
 ###### If they are added, there will be a check in the box

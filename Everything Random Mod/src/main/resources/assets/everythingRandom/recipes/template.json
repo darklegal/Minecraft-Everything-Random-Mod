@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "",
+        "",
+        ""
+    ],
+    
+    "key":
+    {
+        "letter here":
+        {
+            "item":"modid:itemname"
+        }
+    },
+    
+    "result":
+    {
+        "item":"modid:itemname",
+        "count":1,
+        "__comment":"count is the number of the items you want to give when finished"
+    }
+}

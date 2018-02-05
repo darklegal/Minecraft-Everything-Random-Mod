@@ -10,6 +10,31 @@ item.nugget_randominium_smooth.name=Refined Randominium Nugget
 item.bit_randominium_raw.name=Rough Randominium Bit
 item.bit_randominium_smooth.name=Refined Randominium Bit
 item.everything_random_guide.name=Everything Random Guide
+item.sharp_iron_blade.name=Sharpened Iron Sword Blade
+item.sharp_gold_blade.name=Sharpened Gold Sword Blade
+item.sharp_diamond_blade.name=Sharpened Diamond Sword Blade
+item.sharp_iron_sword.name=Sharpened Iron Sword
+item.sharp_gold_sword.name=Sharpened Gold Sword
+item.sharp_diamond_sword.name=Sharpened Diamond Sword
+item.creative_sword.name=Creative Sword
 
 //Blocks
 tile.ore_randominium.name=Randominium Ore
+tile.block_randominium_raw.name=Rough Randominium Block
+tile.block_randominium_smooth.name=Refined Randominium Block
+tile.block_lightmetal.name=Lightmetal Block
+tile.block_darkmetal.name=Darkmetal Block
+tile.block_daymetal.name=Daymetal Block
+tile.block_nightmetal.name=Nightmetal Block
+tile.block_icycobblestone_low.name=Somewhat Icy Cobblestone
+tile.block_icycobblestone_medium.name=Partially Icy Cobblestone
+tile.block_icycobblestone_high.name=Very Icy Cobblestone
+tile.block_icycobblestone_veryhigh.name=Extremely Icy Cobblestone
+tile.block_nether_reactor_core.name=Nether Reactor Core
+tile.block_nether_reactor_core_active.name=Nether Reactor Core (Active)
+tile.block_nether_reactor_core_used.name=Nether Reactor Core (Used)
+
+//Tools
+
+
+//Dyed Quartz
