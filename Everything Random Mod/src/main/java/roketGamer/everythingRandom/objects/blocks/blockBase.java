@@ -9,7 +9,7 @@ import net.minecraft.item.ItemBlock;
 import roketGamer.everythingRandom.main;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
-import roketGamer.everythingRandom.util.iHasModel;
+import roketGamer.everythingRandom.util.interfaces.iHasModel;
 
 public class blockBase extends Block implements iHasModel{
 	

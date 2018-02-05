@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
-import roketGamer.everythingRandom.util.iHasModel;
+import roketGamer.everythingRandom.util.interfaces.iHasModel;
 
 @EventBusSubscriber
 public class registryHandler {

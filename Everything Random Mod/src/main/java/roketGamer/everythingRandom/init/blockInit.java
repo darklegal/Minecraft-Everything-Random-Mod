@@ -8,6 +8,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import roketGamer.everythingRandom.objects.blocks.blockBase;
+import roketGamer.everythingRandom.objects.blocks.blockOres;
 
 public class blockInit {
 	
@@ -29,7 +30,7 @@ public class blockInit {
 	public static final Block ICY_COBBLESTONE_VERYHIGH = new blockBase("block_icycobblestone_veryhigh", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	
 	//ores
-	public static final Block ORE_RANDOMITE = new blockBase("ore_randominium", Material.ROCK, 50F, 1.5F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block ORES = new blockOres("ores", "overworld", Material.ROCK, 50F, 1.5F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);

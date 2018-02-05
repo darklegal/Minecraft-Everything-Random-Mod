@@ -1,4 +1,4 @@
-package roketGamer.everythingRandom.util;
+package roketGamer.everythingRandom.util.interfaces;
 
 public interface iHasModel {
 	

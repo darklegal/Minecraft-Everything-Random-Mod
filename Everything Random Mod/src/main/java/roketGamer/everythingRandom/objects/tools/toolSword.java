@@ -4,7 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
 import roketGamer.everythingRandom.main;
 import roketGamer.everythingRandom.init.itemInit;
-import roketGamer.everythingRandom.util.iHasModel;
+import roketGamer.everythingRandom.util.interfaces.iHasModel;
 
 public class toolSword extends ItemSword implements iHasModel {
 	
