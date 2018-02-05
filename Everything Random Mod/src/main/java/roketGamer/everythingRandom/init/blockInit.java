@@ -32,7 +32,7 @@ public class blockInit {
 	public static final Block ORE_RANDOMITE = new blockBase("ore_randominium", Material.ROCK, 50F, 1.5F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
-	
+	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);
 	
 	//tanks
 	

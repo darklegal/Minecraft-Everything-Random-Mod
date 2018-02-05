@@ -17,7 +17,7 @@ public class itemInit {
 	public static final ToolMaterial SHARP_IRON = EnumHelper.addToolMaterial("iron_sharp", 2, 200, 6F, 3F, 14);
 	public static final ToolMaterial SHARP_GOLD = EnumHelper.addToolMaterial("gold_sharp", 0, 26, 12F, 1F, 22);
 	public static final ToolMaterial SHARP_DIAMOND = EnumHelper.addToolMaterial("diamond_sharp", 3, 1249, 8F, 3.5F, 10);
-	public static final ToolMaterial CREATIVE_TOOL = EnumHelper.addToolMaterial("creative", 10, 100000, 10F, 100000F, 100);
+	public static final ToolMaterial CREATIVE_TOOL = EnumHelper.addToolMaterial("creative", 10, 9999999, 10F, 999996F, 100);
 	
 	//items
 	public static final Item LIGHTMETAL_INGOT = new itemBase("ingot_lightmetal");
@@ -42,4 +42,5 @@ public class itemInit {
 	public static final Item SWORD_CREATIVE = new toolSword("creative_sword", CREATIVE_TOOL);
 	
 	//other
+
 }

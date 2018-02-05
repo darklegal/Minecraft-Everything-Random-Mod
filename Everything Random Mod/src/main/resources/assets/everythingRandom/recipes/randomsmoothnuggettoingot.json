@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item":"everythingrandom:nugget_randominium_smooth"
+        }
+    },
+    
+    "result":
+    {
+        "item":"everythingrandom:ingot_randominium_smooth",
+        "count":1
+    }
+}
