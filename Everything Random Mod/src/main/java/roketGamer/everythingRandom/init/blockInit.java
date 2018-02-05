@@ -33,6 +33,7 @@ public class blockInit {
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);
+	public static final Block GRINDSTONE_POWER = new blockBase("grindstone_powered", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);
 	
 	//tanks
 	

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item":"everythingrandom:block_nightmetal"
+        }
+    },
+    
+    "result":
+    {
+        "item":"everythingrandom:ingot_nightmetal",
+        "count":9
+    }
+}

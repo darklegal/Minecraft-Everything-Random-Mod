@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item":"everythingrandom:ingot_lightmetal"
+        }
+    },
+    
+    "result":
+    {
+        "item":"everythingrandom:block_lightmetal",
+        "count":1
+    }
+}

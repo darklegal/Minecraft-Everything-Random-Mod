@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item":"everythingrandom:block_lightmetal"
+        }
+    },
+    
+    "result":
+    {
+        "item":"everythingrandom:ingot_lightmetal",
+        "count":9
+    }
+}
