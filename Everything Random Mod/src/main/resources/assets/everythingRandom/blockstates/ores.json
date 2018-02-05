@@ -1,5 +1,5 @@
 {
     "variants": {
-        "randominium": { "model": "everythingRandom:ore_randominium" }
+        "variant=randominium": { "model": "everythingRandom:ore_randominium" }
     }
 }
