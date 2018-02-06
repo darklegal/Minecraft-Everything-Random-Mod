@@ -21,8 +21,9 @@ item.ingot_substite.name=Substite Ingot
 item.nugget_substite.name=Substite Nugget
 
 //Blocks
-tile.ores_randominium.name=Randominium Ore
-tile.ores_substite.name=Substite Ore
+tile.ore_randominium.name=Randominium Ore
+tile.ore_substite.name=Substite Ore
+tile.ore_slimy.name=Slimy Ore
 tile.block_randominium_raw.name=Rough Randominium Block
 tile.block_randominium_smooth.name=Refined Randominium Block
 tile.block_substite.name=Substite Block
@@ -30,12 +31,13 @@ tile.block_lightmetal.name=Lightmetal Block
 tile.block_darkmetal.name=Darkmetal Block
 tile.block_daymetal.name=Daymetal Block
 tile.block_nightmetal.name=Nightmetal Block
-tile.block_icycobblestone_low.name=Somewhat Icy Cobblestone
-tile.block_icycobblestone_medium.name=Partially Icy Cobblestone
-tile.block_icycobblestone_high.name=Very Icy Cobblestone
-tile.block_icycobblestone_veryhigh.name=Extremely Icy Cobblestone
-tile.block_nether_reactor_core.name=Nether Reactor Core
-tile.block_nether_reactor_core_active.name=Nether Reactor Core (Active)
-tile.block_nether_reactor_core_used.name=Nether Reactor Core (Used)
+tile.icycobblestone_low.name=Somewhat Icy Cobblestone
+tile.icycobblestone_medium.name=Partially Icy Cobblestone
+tile.icycobblestone_high.name=Very Icy Cobblestone
+tile.icycobblestone_veryhigh.name=Extremely Icy Cobblestone
+tile.nether_reactor_core_unused.name=Nether Reactor Core
+tile.nether_reactor_core_active.name=Nether Reactor Core (Active)
+tile.nether_reactor_core_used.name=Nether Reactor Core (Used)
+tile.glowing_obsidian.name=Glowing Obsidian
 
 //Dyed Quartz

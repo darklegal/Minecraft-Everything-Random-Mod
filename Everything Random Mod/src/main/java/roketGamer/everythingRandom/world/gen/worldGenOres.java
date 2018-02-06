@@ -4,9 +4,11 @@ import java.util.Random;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockMatcher;
+import net.minecraft.init.Biomes;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
@@ -20,11 +22,14 @@ public class worldGenOres implements IWorldGenerator{
 	
 	private WorldGenerator ore_randominium;
 	private WorldGenerator ore_substite;
+	private WorldGenerator ore_slimy;
+	Biome biome;
 
 	public worldGenOres() {
 		
-		ore_randominium = new WorldGenMinable((IBlockState) blockInit.RANDOMITE_ORE, 5, BlockMatcher.forBlock(Blocks.STONE));
-		ore_substite = new WorldGenMinable((IBlockState) blockInit.SUBSTITE_ORE, 3, BlockMatcher.forBlock(Blocks.STONE));
+		ore_randominium = new WorldGenMinable(blockInit.RANDOMITE_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+		ore_substite = new WorldGenMinable(blockInit.SUBSTITE_ORE.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
+		ore_slimy = new WorldGenMinable(blockInit.SLIMY_ORE.getDefaultState(), 10, BlockMatcher.forBlock(Blocks.STONE));
 		
 	}
 	
@@ -39,6 +44,9 @@ public class worldGenOres implements IWorldGenerator{
 		case 0:
 			runGenerator(ore_randominium, world, random, chunkX, chunkZ, 2, 10, 30);
 			runGenerator(ore_substite, world, random, chunkX, chunkZ, 3, 0, 45);
+			if(biome == Biomes.SWAMPLAND && biome == Biomes.MUTATED_SWAMPLAND) {
+				runGenerator(ore_slimy, world, random, chunkX, chunkZ, 5, 0, 20);
+			}
 			break;
 			
 		case 1:

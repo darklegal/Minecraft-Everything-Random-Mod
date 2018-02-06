@@ -37,6 +37,10 @@ public class itemInit {
 	public static final Item SUBSTITE_INGOT = new itemBase("ingot_substite");
 	//public static final Item SUBSTITE_NUGGET = new itemBase("nugget_substite");
 	//public static final Item DYED_QUARTZ = new dyedQuartzItem("dyed_quartz");
+	public static final Item NETHERIUM_INGOT = new itemBase("ingot_netherium");
+	public static final Item VOIDEN_INGOT = new itemBase("ingot_voiden");
+	public static final Item BALANCIUM_INGOT = new itemBase("ingot_balancium");
+	public static final Item ORDINIUM_INGOT = new itemBase("ingot_ordinium");
 	
 	//tools and weapons
 	public static final Item SWORD_SHARP_IRON = new toolSword("sharp_iron_sword", SHARP_IRON);
