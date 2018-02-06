@@ -9,6 +9,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import roketGamer.everythingRandom.objects.blocks.blockBase;
 import roketGamer.everythingRandom.objects.blocks.blockOres;
+import roketGamer.everythingRandom.objects.blocks.dyedQuartzBlock;
 
 public class blockInit {
 	
@@ -30,8 +31,15 @@ public class blockInit {
 	public static final Block ICY_COBBLESTONE_VERYHIGH = new blockBase("block_icycobblestone_veryhigh", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block SUBSTITE_BLOCK = new blockBase("block_substite", Material.IRON, 30F, 2F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
+	//other
+	public static final Block DYED_QUARTZ_BLOCK = new dyedQuartzBlock("block_quartzdyed_block", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block DYED_QUARTZ_PILLAR = new dyedQuartzPillar("block_quartzdyed_pillar", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block DYED_QUARTZ_CHISELED = new dyedQuartzBlock("block_quartzdyed_chiseled", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	
 	//ores
-	public static final Block ORES = new blockOres("ores", "overworld", Material.ROCK, 50F, 1.5F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//(unused) public static final Block ORES = new blockOres("ores", "overworld", Material.ROCK, 50F, 1.5F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block RANDOMITE_ORE = new blockBase("ore_randominium", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block SUBSTITE_ORE = new blockBase("ore_substite", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);
