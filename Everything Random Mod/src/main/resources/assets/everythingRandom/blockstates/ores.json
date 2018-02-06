@@ -1,5 +1,6 @@
 {
     "variants": {
-        "variant=randominium": { "model": "everythingRandom:ore_randominium" }
+        "variant=randominium": { "model": "everythingRandom:ore_randominium" },
+		"variant=substite": {"model": "everythingRandom:ore_substite" }
     }
 }

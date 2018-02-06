@@ -17,11 +17,15 @@ item.sharp_iron_sword.name=Sharpened Iron Sword
 item.sharp_gold_sword.name=Sharpened Gold Sword
 item.sharp_diamond_sword.name=Sharpened Diamond Sword
 item.creative_sword.name=Creative Sword
+item.ingot_substite.name=Substite Ingot
+item.nugget_substite.name=Substite Nugget
 
 //Blocks
 tile.ores_randominium.name=Randominium Ore
+tile.ores_substite.name=Substite Ore
 tile.block_randominium_raw.name=Rough Randominium Block
 tile.block_randominium_smooth.name=Refined Randominium Block
+tile.block_substite.name=Substite Block
 tile.block_lightmetal.name=Lightmetal Block
 tile.block_darkmetal.name=Darkmetal Block
 tile.block_daymetal.name=Daymetal Block

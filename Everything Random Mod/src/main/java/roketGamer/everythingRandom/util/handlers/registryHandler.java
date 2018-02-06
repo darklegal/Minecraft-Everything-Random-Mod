@@ -6,9 +6,11 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.interfaces.iHasModel;
+import roketGamer.everythingRandom.world.gen.worldGenOres;
 
 @EventBusSubscriber
 public class registryHandler {
@@ -49,6 +51,12 @@ public class registryHandler {
 			}
 			
 		}
+		
+	}
+	
+	public static void otherRegistries() {
+		
+		GameRegistry.registerWorldGenerator(new worldGenOres(), 0);
 		
 	}
 

@@ -34,6 +34,8 @@ public class itemInit {
 	public static final Item SHARP_IRON_BLADE = new itemBase("sharp_iron_blade");
 	public static final Item SHARP_GOLD_BLADE = new itemBase("sharp_gold_blade");
 	public static final Item SHARP_DIAMOND_BLADE = new itemBase("sharp_diamond_blade");
+	public static final Item SUBSTITE_INGOT = new itemBase("ingot_substite");
+	//public static final Item SUBSTITE_NUGGET = new itemBase("nugget_substite");
 	
 	//tools and weapons
 	public static final Item SWORD_SHARP_IRON = new toolSword("sharp_iron_sword", SHARP_IRON);

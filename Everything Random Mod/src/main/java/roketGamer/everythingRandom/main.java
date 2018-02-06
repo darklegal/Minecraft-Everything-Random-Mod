@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import roketGamer.everythingRandom.proxy.commonProxy;
 import roketGamer.everythingRandom.util.info;
+import roketGamer.everythingRandom.util.handlers.registryHandler;
 
 @Mod(modid = info.MODID, name = info.NAME, version = info.VERSION)
 public class main {
@@ -22,7 +23,7 @@ public class main {
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
 		
-		
+		registryHandler.otherRegistries();
 		
 	}
 	

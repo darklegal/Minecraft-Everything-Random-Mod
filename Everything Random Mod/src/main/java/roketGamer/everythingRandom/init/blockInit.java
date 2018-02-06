@@ -28,9 +28,10 @@ public class blockInit {
 	public static final Block ICY_COBBLESTONE_MEDIUM = new blockBase("block_icycobblestone_medium", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ICY_COBBLESTONE_HIGH = new blockBase("block_icycobblestone_high", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ICY_COBBLESTONE_VERYHIGH = new blockBase("block_icycobblestone_veryhigh", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block SUBSTITE_BLOCK = new blockBase("block_substite", Material.IRON, 30F, 2F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//ores
-	public static final Block ORES = new blockOres("ores", "overworld", Material.ROCK, 50F, 1.5F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block ORES = new blockOres("ores", "overworld", Material.ROCK, 50F, 1.5F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 30F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);

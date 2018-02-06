@@ -6,7 +6,8 @@ public class enumHandler {
 	
 	public static enum enumType implements IStringSerializable {
 		
-		RANDOMITE(0, "randominium");
+		RANDOMITE(0, "randominium"),
+		SUBSTITE(1, "substite");
 	
 		private static final enumType[] META_LOOKUP = new enumType[values().length];
 		private final int meta;
