@@ -19,11 +19,14 @@ item.sharp_diamond_sword.name=Sharpened Diamond Sword
 item.creative_sword.name=Creative Sword
 item.ingot_substite.name=Substite Ingot
 item.nugget_substite.name=Substite Nugget
+item.ingot_netherium.name=Netherium Ingot
 
-//Blocks
+//Ores
 tile.ore_randominium.name=Randominium Ore
 tile.ore_substite.name=Substite Ore
 tile.ore_slimy.name=Slimy Ore
+
+//Blocks
 tile.block_randominium_raw.name=Rough Randominium Block
 tile.block_randominium_smooth.name=Refined Randominium Block
 tile.block_substite.name=Substite Block

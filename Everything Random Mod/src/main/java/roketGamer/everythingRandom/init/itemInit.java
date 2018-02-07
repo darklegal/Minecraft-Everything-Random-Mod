@@ -18,10 +18,11 @@ public class itemInit {
 	public static final ToolMaterial SHARP_GOLD = EnumHelper.addToolMaterial("gold_sharp", 0, 26, 12F, 1F, 22);
 	public static final ToolMaterial SHARP_DIAMOND = EnumHelper.addToolMaterial("diamond_sharp", 3, 1249, 8F, 3.5F, 10);
 	public static final ToolMaterial CREATIVE_TOOL = EnumHelper.addToolMaterial("creative", 10, 9999999, 10F, 999996F, 100);
+	public static final ToolMaterial PURITY = EnumHelper.addToolMaterial("purity", 2, 800, 6F, 4F, 17);
 	
 	//items
-	public static final Item LIGHTMETAL_INGOT = new itemBase("ingot_lightmetal");
-	public static final Item DARKMETAL_INGOT = new itemBase("ingot_darkmetal");
+	//public static final Item LIGHTMETAL_INGOT = new itemBase("ingot_lightmetal");
+	//public static final Item DARKMETAL_INGOT = new itemBase("ingot_darkmetal");
 	public static final Item DAYMETAL_INGOT = new itemBase("ingot_daymetal");
 	public static final Item NIGHTMETAL_INGOT = new itemBase("ingot_nightmetal");
 	public static final Item RANDOMITE_BIT_RAW = new itemBase("bit_randominium_raw");
@@ -41,12 +42,15 @@ public class itemInit {
 	public static final Item VOIDEN_INGOT = new itemBase("ingot_voiden");
 	public static final Item BALANCIUM_INGOT = new itemBase("ingot_balancium");
 	public static final Item ORDINIUM_INGOT = new itemBase("ingot_ordinium");
+	public static final Item PURE_DIAMOND = new itemBase("diamond_pure");
+	public static final Item PURE_EMERALD = new itemBase("emerald_pure");
 	
 	//tools and weapons
 	public static final Item SWORD_SHARP_IRON = new toolSword("sharp_iron_sword", SHARP_IRON);
 	public static final Item SWORD_SHARP_GOLD = new toolSword("sharp_gold_sword", SHARP_GOLD);
 	public static final Item SWORD_SHARP_DIAMOND = new toolSword("sharp_diamond_sword", SHARP_DIAMOND);
 	public static final Item SWORD_CREATIVE = new toolSword("creative_sword", CREATIVE_TOOL);
+	public static final Item PURE_SWORD = new toolSword("pure_sword", PURITY);
 	
 	//other
 

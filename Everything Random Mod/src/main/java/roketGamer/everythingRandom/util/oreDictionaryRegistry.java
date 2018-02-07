@@ -17,8 +17,8 @@ public class oreDictionaryRegistry {
 	//items
 	OreDictionary.registerOre("ingotNightmetal", itemInit.NIGHTMETAL_INGOT);
 	OreDictionary.registerOre("ingotDaymetal", itemInit.DAYMETAL_INGOT);
-	OreDictionary.registerOre("ingotLightmetal", itemInit.LIGHTMETAL_INGOT);
-	OreDictionary.registerOre("ingotDarkmetal", itemInit.DARKMETAL_INGOT);
+	//OreDictionary.registerOre("ingotLightmetal", itemInit.LIGHTMETAL_INGOT);
+	//OreDictionary.registerOre("ingotDarkmetal", itemInit.DARKMETAL_INGOT);
 	OreDictionary.registerOre("ingotRawRandomite", itemInit.RANDOMITE_INGOT_RAW);
 	OreDictionary.registerOre("ingotSmoothRandomite", itemInit.RANDOMITE_INGOT_SMOOTH);
 	OreDictionary.registerOre("nuggetRawRandomite", itemInit.RANDOMITE_NUGGET_RAW);
@@ -33,11 +33,13 @@ public class oreDictionaryRegistry {
 	//blocks
 	OreDictionary.registerOre("blockNightmetal", blockInit.NIGHTMETAL_BLOCK);
 	OreDictionary.registerOre("blockDaymetal", blockInit.DAYMETAL_BLOCK);
-	OreDictionary.registerOre("blockDarkmetal", blockInit.DARKMETAL_BLOCK);
-	OreDictionary.registerOre("blockLightmetal", blockInit.LIGHTMETAL_BLOCK);
+	//OreDictionary.registerOre("blockDarkmetal", blockInit.DARKMETAL_BLOCK);
+	//OreDictionary.registerOre("blockLightmetal", blockInit.LIGHTMETAL_BLOCK);
 	OreDictionary.registerOre("blockRawRandomite", blockInit.RANDOMITE_BLOCK_RAW);
 	OreDictionary.registerOre("blockSmoothRandomite", blockInit.RANDOMITE_BLOCK_SMOOTH);
 	OreDictionary.registerOre("blockSubstite", blockInit.SUBSTITE_BLOCK);
+	OreDictionary.registerOre("blockNetherium", blockInit.NETHERIUM_BLOCK);
+	OreDictionary.registerOre("blockVoiden", blockInit.VOIDEN_BLOCK);
 	OreDictionary.registerOre("obsidian", blockInit.GLOWING_OBSIDIAN);
 	
 	//ores

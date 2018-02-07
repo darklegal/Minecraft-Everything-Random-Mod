@@ -20,20 +20,22 @@ public class blockInit {
 	// "SoundType." "CreativeTabs."
 	
 	//standard blocks
-	public static final Block LIGHTMETAL_BLOCK = new blockBase("block_lightmetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block DARKMETAL_BLOCK = new blockBase("block_darkmetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block LIGHTMETAL_BLOCK = new blockBase("block_lightmetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block DARKMETAL_BLOCK = new blockBase("block_darkmetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block DAYMETAL_BLOCK = new blockBase("block_daymetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block NIGHTMETAL_BLOCK = new blockBase("block_nightmetal", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block RANDOMITE_BLOCK_RAW = new blockBase("block_randominium_raw", Material.IRON, 100F, 4F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block RANDOMITE_BLOCK_SMOOTH = new blockBase("block_randominium_smooth", Material.IRON, 100F, 4F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block ICY_COBBLESTONE_LOW = new blockBase("icycobblestone_low", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block ICY_COBBLESTONE_MEDIUM = new blockBase("icycobblestone_medium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block ICY_COBBLESTONE_HIGH = new blockBase("icycobblestone_high", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block ICY_COBBLESTONE_VERYHIGH = new blockBase("icycobblestone_veryhigh", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block ICY_COBBLESTONE_LOW = new blockBase("icycobblestone_low", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block ICY_COBBLESTONE_MEDIUM = new blockBase("icycobblestone_medium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block ICY_COBBLESTONE_HIGH = new blockBase("icycobblestone_high", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block ICY_COBBLESTONE_VERYHIGH = new blockBase("icycobblestone_veryhigh", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block SUBSTITE_BLOCK = new blockBase("block_substite", Material.IRON, 30F, 2F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block GLOWING_OBSIDIAN = new blockBase("glowing_obsidian", Material.ROCK, 2000F, 50F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ORDINIUM_BLOCK = new blockBase("block_ordinium", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block BALANCIUM_BLOCK = new blockBase("block_balancium", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block VOIDEN_BLOCK = new blockBase("block_voiden", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block NETHERIUM_BLOCK = new blockBase("block_netherium", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//other
 	public static final Block DYED_QUARTZ_BLOCK = new dyedQuartzBlock("quartz_dyed_block", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
@@ -51,7 +53,7 @@ public class blockInit {
 	public static final Block TIN_ORE = new blockBase("ore_tin", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ALUMINUM_ORE = new blockBase("ore_aluminum", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);*/
 	public static final Block VOIDEN_ORE = new blockBase("ore_voiden", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block ORDINIUM_ORE = new blockBase("ore_balancium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block ORDINIUM_ORE = new blockBase("ore_ordinium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);
