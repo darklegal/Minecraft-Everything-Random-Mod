@@ -17,13 +17,18 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 import roketGamer.everythingRandom.main;
+import roketGamer.everythingRandom.init.blockInit;
+import roketGamer.everythingRandom.init.itemInit;
+import roketGamer.everythingRandom.objects.blocks.items.itemBlockVariant;
 import roketGamer.everythingRandom.util.handlers.enumHandler;
 import roketGamer.everythingRandom.util.interfaces.iHasModel;
 import roketGamer.everythingRandom.util.interfaces.iMetaName;
 
 public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 	
-	public static final PropertyEnum<dyedQuartzBlock.enumType> COLOR = PropertyEnum.<dyedQuartzBlock.enumType>create("color", dyedQuartzBlock.enumType.class);
+	public static final PropertyEnum<enumHandler.enumType> COLOR = PropertyEnum.<enumHandler.enumType>create("color", enumHandler.enumType.class);
+	
+	private String name;
 	
 	public dyedQuartzBlock(String name, Material material, Float resistance, Float hardness, SoundType sound, CreativeTabs tab) {
 		
@@ -34,21 +39,26 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 		setHardness(hardness);
 		setResistance(resistance);
 		setSoundType(sound);
-		this.setDefaultState(this.blockState.getBaseState().withProperty(COLOR, dyedQuartzBlock.enumType.WHITE));
+		this.setDefaultState(this.blockState.getBaseState().withProperty(COLOR, enumHandler.enumType.WHITE));
+		
+		this.name = name;
+		
+		blockInit.BLOCKS.add(this);
+		itemInit.ITEMS.add(new itemBlockVariant(this).setRegistryName(this.getRegistryName()));
 		
 	}
 	
 	@Override
 	public int damageDropped(IBlockState state) {
 		
-		return((dyedQuartzBlock.enumType)state.getValue(COLOR)).getMeta();
+		return((enumHandler.enumType)state.getValue(COLOR)).getMeta();
 		
 	}
 	
 	@Override
 	public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items) {
 		
-		for(dyedQuartzBlock.enumType dyedquartzblock$enumtype : dyedQuartzBlock.enumType.values()) {
+		for(enumHandler.enumType dyedquartzblock$enumtype : enumHandler.enumType.values()) {
 			
 			items.add(new ItemStack(this, 1, dyedquartzblock$enumtype.getMeta()));
 			
@@ -59,14 +69,14 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 	@Override
 	public IBlockState getStateFromMeta(int meta) {
 		
-		return this.getDefaultState().withProperty(COLOR, dyedQuartzBlock.enumType.byMetadata(meta));
+		return this.getDefaultState().withProperty(COLOR, enumHandler.enumType.byMetadata(meta));
 		
 	}
 	
 	@Override
 	public int getMetaFromState(IBlockState state) {
 		
-		return ((dyedQuartzBlock.enumType)state.getValue(COLOR)).getMeta();
+		return ((enumHandler.enumType)state.getValue(COLOR)).getMeta();
 		
 	}
 	
@@ -87,22 +97,22 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 	@Override
 	public String getSpecialName(ItemStack stack) {
 		
-		return dyedQuartzBlock.enumType.values()[stack.getItemDamage()].getName();
+		return enumHandler.enumType.values()[stack.getItemDamage()].getName();
 		
 	}
 	
 	@Override
 	public void registerModels() {
 		
-		for(int i = 0; i < dyedQuartzBlock.enumType.values().length; i++) {
+		for(int i = 0; i < enumHandler.enumType.values().length; i++) {
 			
-			main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "ore_" + dyedQuartzBlock.enumType.values()[i].getName(), "inventory");
+			main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, enumHandler.enumType.values()[i].getName() + "_dyed_quartz_block", "inventory");
 			
 		}
 		
 	}
 	
-	public static enum enumType implements IStringSerializable{
+	/*public static enum enumType implements IStringSerializable{
 		
 		WHITE(0, "white"),
 		ORANGE(1, "orange"),
@@ -121,7 +131,7 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 		RED(14, "red"),
 		BLACK(15, "black");
 		
-		private static final dyedQuartzBlock.enumType[] META_LOOKUP = new dyedQuartzBlock.enumType[values().length];
+		private static final enumHandler.enumType[] META_LOOKUP = new enumHandler.enumType[values().length];
 		private final int meta;
 		private final String name, unlocalizedName;
 		
@@ -161,7 +171,7 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 			return this.name;
 		}
 		
-		public static dyedQuartzBlock.enumType byMetadata(int meta){
+		public static enumHandler.enumType byMetadata(int meta){
 			
 			return META_LOOKUP[meta];
 			
@@ -169,7 +179,7 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 		
 		static {
 			
-			for(dyedQuartzBlock.enumType dyedquartzblock$enumtype : values()) {
+			for(enumHandler.enumType dyedquartzblock$enumtype : values()) {
 				
 				META_LOOKUP[dyedquartzblock$enumtype.getMeta()] = dyedquartzblock$enumtype;
 				
@@ -177,6 +187,6 @@ public class dyedQuartzBlock extends Block implements iMetaName, iHasModel{
 			
 		}
 	
-	}
+	}*/
 
 }

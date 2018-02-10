@@ -28,6 +28,9 @@ public class worldGenOres implements IWorldGenerator{
 	private WorldGenerator ore_netherium;
 	private WorldGenerator ore_voiden;
 	private WorldGenerator ore_ordinium;
+	private WorldGenerator ore_aether;
+	private WorldGenerator ore_copper;
+	private WorldGenerator ore_uranium;
 
 	public worldGenOres() {
 		
@@ -39,6 +42,8 @@ public class worldGenOres implements IWorldGenerator{
 		ore_netherium = new WorldGenMinable(blockInit.NETHERIUM_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		ore_voiden = new WorldGenMinable(blockInit.VOIDEN_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.END_STONE));
 		ore_ordinium = new WorldGenMinable(blockInit.ORDINIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+		ore_copper = new WorldGenMinable(blockInit.COPPER_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+		ore_uranium = new WorldGenMinable(blockInit.URANIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
 		
 	}
 	

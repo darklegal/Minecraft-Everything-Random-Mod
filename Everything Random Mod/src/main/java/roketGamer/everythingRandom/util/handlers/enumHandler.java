@@ -6,8 +6,22 @@ public class enumHandler {
 	
 	public static enum enumType implements IStringSerializable {
 		
-		RANDOMITE(0, "randominium"),
-		SUBSTITE(1, "substite");
+		WHITE(0, "white"),
+		ORANGE(1, "orange"),
+		MAGENTA(2, "magenta"),
+		LIGHTBLUE(3, "light_blue"),
+		YELLOW(4, "yellow"),
+		LIME(5, "lime"),
+		PINK(6, "pink"),
+		GREY(7, "grey"),
+		LIGHTGREY(8, "silver"),
+		CYAN(9, "cyan"),
+		PURPLE(10, "purple"),
+		BLUE(11, "blue"),
+		BROWN(12, "brown"),
+		GREEN(13, "green"),
+		RED(14, "red"),
+		BLACK(15, "black");
 	
 		private static final enumType[] META_LOOKUP = new enumType[values().length];
 		private final int meta;

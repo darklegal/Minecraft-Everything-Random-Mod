@@ -1,5 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "everythingRandom:block_ordinium" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:block_ordinium"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
 }

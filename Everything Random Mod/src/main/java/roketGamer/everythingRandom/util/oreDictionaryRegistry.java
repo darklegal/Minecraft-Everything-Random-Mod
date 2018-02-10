@@ -1,5 +1,6 @@
 package roketGamer.everythingRandom.util;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.oredict.OreDictionary;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
@@ -28,7 +29,10 @@ public class oreDictionaryRegistry {
 	OreDictionary.registerOre("ingotSubstite", itemInit.SUBSTITE_INGOT);
 	OreDictionary.registerOre("ingotNetherium", itemInit.NETHERIUM_INGOT);
 	OreDictionary.registerOre("ingotVoiden", itemInit.VOIDEN_INGOT);
-	
+	OreDictionary.registerOre("ingotOrdinium", itemInit.ORDINIUM_INGOT);
+	OreDictionary.registerOre("ingotBalancium", itemInit.BALANCIUM_INGOT);
+	OreDictionary.registerOre("uranium", itemInit.URANIUM_235);
+	OreDictionary.registerOre("ingotCopper", itemInit.COPPER_INGOT);
 	
 	//blocks
 	OreDictionary.registerOre("blockNightmetal", blockInit.NIGHTMETAL_BLOCK);
@@ -40,7 +44,11 @@ public class oreDictionaryRegistry {
 	OreDictionary.registerOre("blockSubstite", blockInit.SUBSTITE_BLOCK);
 	OreDictionary.registerOre("blockNetherium", blockInit.NETHERIUM_BLOCK);
 	OreDictionary.registerOre("blockVoiden", blockInit.VOIDEN_BLOCK);
+	OreDictionary.registerOre("blockOrdinium", blockInit.ORDINIUM_BLOCK);
+	OreDictionary.registerOre("blockBalancium", blockInit.BALANCIUM_BLOCK);
+	OreDictionary.registerOre("blockCopper", blockInit.COPPER_BLOCK);
 	OreDictionary.registerOre("obsidian", blockInit.GLOWING_OBSIDIAN);
+	OreDictionary.registerOre("uraniumBox", blockInit.URANIUM_BOX);
 	
 	//ores
 	OreDictionary.registerOre("oreRandomite", blockInit.RANDOMITE_ORE);
@@ -48,6 +56,8 @@ public class oreDictionaryRegistry {
 	OreDictionary.registerOre("oreSlimy", blockInit.SLIMY_ORE);
 	OreDictionary.registerOre("oreNetherium", blockInit.NETHERIUM_ORE);
 	OreDictionary.registerOre("oreVoiden", blockInit.VOIDEN_ORE);
+	OreDictionary.registerOre("oreOrdinium", blockInit.ORDINIUM_ORE);
+	OreDictionary.registerOre("oreCopper", blockInit.COPPER_ORE);
 	
 	//other
 	

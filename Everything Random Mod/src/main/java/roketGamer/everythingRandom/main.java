@@ -34,7 +34,7 @@ public class main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 		
-		
+		registryHandler.initRegistries();
 		
 	}
 	

@@ -54,6 +54,12 @@ public class registryHandler {
 		
 	}
 	
+	public static void initRegistries() {
+		
+		soundsHandler.registerSounds();
+		
+	}
+	
 	public static void otherRegistries() {
 		
 		GameRegistry.registerWorldGenerator(new worldGenOres(), 0);

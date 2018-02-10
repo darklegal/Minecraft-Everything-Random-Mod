@@ -1,5 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "everythingRandom:ore_slimy" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:ore_slimy"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
 }

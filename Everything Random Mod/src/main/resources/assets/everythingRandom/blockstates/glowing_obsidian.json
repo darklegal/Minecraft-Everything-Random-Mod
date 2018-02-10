@@ -1,5 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "everythingRandom:glowing_obsidian" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:glowing_obsidian"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
 }

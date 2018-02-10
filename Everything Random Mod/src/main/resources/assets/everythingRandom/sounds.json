@@ -1,0 +1,49 @@
+{
+    "advancementsounds.questionable_ethics":
+    {
+        "category": "music",
+        "sounds": [{"name": "everythingRandom:advancementsounds/questionable_ethics", "stream": true}]
+    },
+    "taucannon.no_ammo":
+    {
+        "category": "master",
+        "subtitle": "taucannon.no_ammo",
+        "sounds": [{"name": "everythingRandom:taucannon/no_ammo", "stream": true}]
+    },
+    "taucannon.tau_fire":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_fire",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_1", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_2", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_3", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_4", "stream": true}]
+    },
+    "taucannon.tau_fire_overcharged":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_fire_overcharged",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_overcharged", "stream": true}]
+    },
+    "taucannon.tau_overcharge_beep":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_overcharge_beep",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_beep", "stream": true}]
+    },
+    "taucannon.tau_overcharge_explode":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_overcharge_explode",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_explode", "stream": true}]
+    },
+    "taucannon.tau_spinup":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_spinup",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup", "stream": true}]
+    },
+    "taucannon.tau_spinup_loop":
+    {
+        "category": "master",
+        "subtitle": "taucannon.tau_spinup_loop",
+        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup_loop", "stream": true}]
+    }
+}

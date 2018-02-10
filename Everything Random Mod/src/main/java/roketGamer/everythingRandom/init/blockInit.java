@@ -36,6 +36,8 @@ public class blockInit {
 	public static final Block BALANCIUM_BLOCK = new blockBase("block_balancium", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block VOIDEN_BLOCK = new blockBase("block_voiden", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block NETHERIUM_BLOCK = new blockBase("block_netherium", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block COPPER_BLOCK = new blockBase("block_copper", Material.IRON, 10F, 3F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block URANIUM_BOX = new blockBase("uranium_box", Material.IRON, 2F, 2F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//other
 	public static final Block DYED_QUARTZ_BLOCK = new dyedQuartzBlock("quartz_dyed_block", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
@@ -49,11 +51,12 @@ public class blockInit {
 	public static final Block SUBSTITE_ORE = new blockBase("ore_substite", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block SLIMY_ORE = new blockBase("ore_slimy", Material.ROCK, 10F, 1.5F, SoundType.SLIME, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block NETHERIUM_ORE = new blockBase("ore_netherium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	/*public static final Block COPPER_ORE = new blockBase("ore_copper", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block TIN_ORE = new blockBase("ore_tin", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	/*public static final Block TIN_ORE = new blockBase("ore_tin", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ALUMINUM_ORE = new blockBase("ore_aluminum", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);*/
 	public static final Block VOIDEN_ORE = new blockBase("ore_voiden", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	public static final Block ORDINIUM_ORE = new blockBase("ore_ordinium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block COPPER_ORE = new blockBase("ore_copper", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block URANIUM_ORE = new blockBase("ore_uranium", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	
 	//machines
 	public static final Block GRINDSTONE_HAND = new blockBase("grindstone", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.DECORATIONS);

@@ -3,11 +3,13 @@ package roketGamer.everythingRandom.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import roketGamer.everythingRandom.objects.items.itemBase;
 import roketGamer.everythingRandom.objects.tools.toolSword;
+import roketGamer.everythingRandom.objects.tools.weaponTauCannon;
 
 public class itemInit {
 	
@@ -42,8 +44,10 @@ public class itemInit {
 	public static final Item VOIDEN_INGOT = new itemBase("ingot_voiden");
 	public static final Item BALANCIUM_INGOT = new itemBase("ingot_balancium");
 	public static final Item ORDINIUM_INGOT = new itemBase("ingot_ordinium");
-	public static final Item PURE_DIAMOND = new itemBase("diamond_pure");
-	public static final Item PURE_EMERALD = new itemBase("emerald_pure");
+	//public static final Item PURE_DIAMOND = new itemBase("diamond_pure");
+	//public static final Item PURE_EMERALD = new itemBase("emerald_pure");
+	public static final Item URANIUM_235 = new itemBase("uranium_235");
+	public static final Item COPPER_INGOT = new itemBase("ingot_copper");
 	
 	//tools and weapons
 	public static final Item SWORD_SHARP_IRON = new toolSword("sharp_iron_sword", SHARP_IRON);
@@ -51,6 +55,7 @@ public class itemInit {
 	public static final Item SWORD_SHARP_DIAMOND = new toolSword("sharp_diamond_sword", SHARP_DIAMOND);
 	public static final Item SWORD_CREATIVE = new toolSword("creative_sword", CREATIVE_TOOL);
 	public static final Item PURE_SWORD = new toolSword("pure_sword", PURITY);
+	public static final Item TAU_CANNON = new weaponTauCannon("tau_cannon");
 	
 	//other
 

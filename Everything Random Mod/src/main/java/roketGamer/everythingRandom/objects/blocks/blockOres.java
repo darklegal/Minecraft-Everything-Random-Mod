@@ -38,7 +38,7 @@ public class blockOres extends Block implements iHasModel, iMetaName{
 		setHardness(hardness);
 		setResistance(resistance);
 		setSoundType(sound);
-		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, enumHandler.enumType.RANDOMITE));
+		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, enumHandler.enumType.WHITE));
 		
 		this.name = name;
 		this.dimension = dimension;

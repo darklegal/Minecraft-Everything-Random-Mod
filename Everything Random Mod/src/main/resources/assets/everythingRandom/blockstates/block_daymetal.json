@@ -1,5 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "everythingRandom:block_daymetal" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:block_daymetal"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
 }

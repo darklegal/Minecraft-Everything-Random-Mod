@@ -1,5 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "everythingRandom:block_netherium" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:block_netherium"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
 }
