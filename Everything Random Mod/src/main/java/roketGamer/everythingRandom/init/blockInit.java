@@ -12,7 +12,7 @@ import roketGamer.everythingRandom.objects.blocks.blockBase;
 import roketGamer.everythingRandom.objects.blocks.blockExplosiveCrate;
 import roketGamer.everythingRandom.objects.blocks.blockOres;
 import roketGamer.everythingRandom.objects.blocks.dyedQuartzBlock;
-import roketGamer.everythingRandom.util.soundTypes;
+import roketGamer.everythingRandom.util.everythingRandomSoundTypes;
 
 public class blockInit {
 	
@@ -70,6 +70,6 @@ public class blockInit {
 	//energy storage
 	
 	//explosive blocks
-	public static final Block EXPLOSVE_CRATE = new blockExplosiveCrate("explosive_crate", Material.WOOD, 0F, 1F, soundTypes.CRATE, CreativeTabs.BUILDING_BLOCKS);
+	public static final Block EXPLOSVE_CRATE = new blockExplosiveCrate("explosive_crate", Material.WOOD, 0F, 1F, everythingRandomSoundTypes.CRATE, CreativeTabs.BUILDING_BLOCKS);
 
 }

@@ -9,10 +9,11 @@ import net.minecraft.item.ItemBlock;
 import roketGamer.everythingRandom.main;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
+import roketGamer.everythingRandom.util.interfaces.iHasModel;
 
-public class blockExplosiveCrate extends Block{
+public class blockExplosiveCrate extends Block  implements iHasModel{
 	
-public blockExplosiveCrate(String name, Material material, Float resistance, Float hardness, SoundType sound, CreativeTabs tab) {
+	public blockExplosiveCrate(String name, Material material, Float resistance, Float hardness, SoundType sound, CreativeTabs tab) {
 		
 		super(material);
 		setUnlocalizedName(name);
@@ -27,6 +28,7 @@ public blockExplosiveCrate(String name, Material material, Float resistance, Flo
 		
 	}
 	
+	@Override
 	public void registerModels() {
 		
 		main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");

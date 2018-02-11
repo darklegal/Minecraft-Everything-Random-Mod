@@ -9,8 +9,7 @@ public class soundsHandler {
 	
 	public static SoundEvent QUESTIONABLE_ETHICS_ADVANCEMENT;
 	public static SoundEvent TAU_NOAMMO;
-	public static SoundEvent TAU_FIRE_1;
-	public static SoundEvent TAU_FIRE_2;
+	public static SoundEvent TAU_FIRE;
 	public static SoundEvent TAU_FIRE_OVERCHARGED;
 	public static SoundEvent TAU_SPINUP;
 	public static SoundEvent TAU_SPINUP_LOOP;
@@ -26,7 +25,7 @@ public class soundsHandler {
 		
 		QUESTIONABLE_ETHICS_ADVANCEMENT = registerSound("advancementsounds.questionable_ethics");
 		TAU_NOAMMO = registerSound("taucannon.no_ammo");
-		TAU_FIRE_1 = registerSound("taucannon.tau_fire");
+		TAU_FIRE = registerSound("taucannon.tau_fire");
 		TAU_FIRE_OVERCHARGED = registerSound("taucannon.tau_fire_overcharged");
 		TAU_SPINUP = registerSound("taucannon.tau_spinup");
 		TAU_SPINUP_LOOP = registerSound("taucannon.tau_spinup_loop");
