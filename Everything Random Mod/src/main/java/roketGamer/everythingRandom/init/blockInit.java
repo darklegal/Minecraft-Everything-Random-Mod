@@ -9,8 +9,10 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import roketGamer.everythingRandom.objects.blocks.blockBase;
+import roketGamer.everythingRandom.objects.blocks.blockExplosiveCrate;
 import roketGamer.everythingRandom.objects.blocks.blockOres;
 import roketGamer.everythingRandom.objects.blocks.dyedQuartzBlock;
+import roketGamer.everythingRandom.util.soundTypes;
 
 public class blockInit {
 	
@@ -40,9 +42,9 @@ public class blockInit {
 	public static final Block URANIUM_BOX = new blockBase("uranium_box", Material.IRON, 2F, 2F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//other
-	public static final Block DYED_QUARTZ_BLOCK = new dyedQuartzBlock("quartz_dyed_block", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block DYED_QUARTZ_BLOCK = new dyedQuartzBlock("quartz_dyed_block", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	//public static final Block DYED_QUARTZ_PILLAR = new dyedQuartzPillar("quartz_dyed_pillar", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
-	public static final Block DYED_QUARTZ_CHISELED = new dyedQuartzBlock("quartz_dyed_chiseled", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
+	//public static final Block DYED_QUARTZ_CHISELED = new dyedQuartzBlock("quartz_dyed_chiseled", Material.ROCK, 10F, 2F, SoundType.STONE, CreativeTabs.BUILDING_BLOCKS);
 	//public static final Block NETHER_REACTOR_CORE = new netherReactorCore("nether_reactor_core", Material.IRON, 10F, 2.5F, SoundType.METAL, CreativeTabs.BUILDING_BLOCKS);
 	
 	//ores
@@ -66,5 +68,8 @@ public class blockInit {
 	
 	
 	//energy storage
+	
+	//explosive blocks
+	public static final Block EXPLOSVE_CRATE = new blockExplosiveCrate("explosive_crate", Material.WOOD, 0F, 1F, soundTypes.CRATE, CreativeTabs.BUILDING_BLOCKS);
 
 }

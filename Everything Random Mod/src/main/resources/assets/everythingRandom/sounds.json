@@ -1,49 +1,69 @@
 {
     "advancementsounds.questionable_ethics":
     {
-        "category": "music",
         "sounds": [{"name": "everythingRandom:advancementsounds/questionable_ethics", "stream": true}]
     },
     "taucannon.no_ammo":
     {
-        "category": "master",
         "subtitle": "taucannon.no_ammo",
-        "sounds": [{"name": "everythingRandom:taucannon/no_ammo", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/no_ammo"}]
     },
     "taucannon.tau_fire":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_fire",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_1", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_2", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_3", "stream": true},{"name": "everythingRandom:taucannon/tau_fire_4", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_1"},{"name": "everythingRandom:taucannon/tau_fire_2"},{"name": "everythingRandom:taucannon/tau_fire_3"},{"name": "everythingRandom:taucannon/tau_fire_4"}]
     },
     "taucannon.tau_fire_overcharged":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_fire_overcharged",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_overcharged", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_fire_overcharged"}]
     },
     "taucannon.tau_overcharge_beep":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_overcharge_beep",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_beep", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_beep"}]
     },
     "taucannon.tau_overcharge_explode":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_overcharge_explode",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_explode", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_overcharge_explode"}]
     },
     "taucannon.tau_spinup":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_spinup",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup"}]
     },
     "taucannon.tau_spinup_loop":
     {
-        "category": "master",
         "subtitle": "taucannon.tau_spinup_loop",
-        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup_loop", "stream": true}]
+        "sounds": [{"name": "everythingRandom:taucannon/tau_spinup_loop"}]
+    },
+    "crate.step":
+    {
+        "subtitle": "subtitles.block.generic.footsteps",
+        "sounds": [{"name": "everythingRandom:crate/crate_step_1"}, {"name": "everythingRandom:crate/crate_step_2" },{"name": "everythingRandom:crate/crate_step_3" },{"name": "everythingRandom:crate/crate_step_4" },{"name": "everythingRandom:crate/crate_step_5" },{"name": "everythingRandom:crate/crate_step_6" },{"name": "everythingRandom:crate/crate_step_7" },{"name": "everythingRandom:crate/crate_step_8" }]
+    },
+    "crate.hit":
+    {
+        "subtitle": "subtitles.block.generic.hit",
+        "sounds": [{"name": "everythingRandom:crate/crate_break_1"},{"name": "everythingRandom:crate/crate_break_2"},{"name": "everythingRandom:crate/crate_break_3"}]
+    },
+    "crate.break":
+    {
+        "subtitle": "subtitles.block.generic.break",
+        "sounds": [{"name": "everythingRandom:crate/crate_break_1"},{"name": "everythingRandom:crate/crate_break_2"},{"name": "everythingRandom:crate/crate_break_3"}]
+    },
+    "crate.place":
+    {
+        "subtitle": "subtitles.block.generic.place",
+        "sounds": [{"name": "everythingRandom:crate/crate_break_1"},{"name": "everythingRandom:crate/crate_break_2"},{"name": "everythingRandom:crate/crate_break_3"}]
+    },
+    "crate.fall":
+    {
+        "sounds": [{"name": "everythingRandom:crate/crate_step_1"}, {"name": "everythingRandom:crate/crate_step_2" },{"name": "everythingRandom:crate/crate_step_3" },{"name": "everythingRandom:crate/crate_step_4" },{"name": "everythingRandom:crate/crate_step_5" },{"name": "everythingRandom:crate/crate_step_6" },{"name": "everythingRandom:crate/crate_step_7" },{"name": "everythingRandom:crate/crate_step_8" }]
+    },
+    "crate.explode":
+    {
+        "sounds": [{"name": "everythingRandom:explosions/explode1", "weight": 2},{"name": "everythingRandom:explosions/explode2", "weight": 2},{"name": "everythingRandom:explosions/explode3", "weight": 2},{"name": "everythingRandom:explosions/explode4", "weight": 2},{"name": "everythingRandom:explosions/explode5", "weight": 2},{"name": "everythingRandom:explosions/explode6", "weight": 2},{"name": "everythingRandom:explosions/explode7", "weight": 2},{"name": "everythingRandom:explosions/explode8", "weight": 2}]
     }
 }

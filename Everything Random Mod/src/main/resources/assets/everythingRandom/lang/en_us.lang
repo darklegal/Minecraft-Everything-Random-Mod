@@ -95,3 +95,24 @@ taucannon.tau_overcharge_beep=Tau Cannon Overcharge Beeping
 taucannon.tau_spinup=Tau Cannon Charging Up
 taucannon.tau_spinup_loop=Tau Cannon Charged
 taucannon.tau_overcharge_explode=Tau Cannon Overcharge Explode
+crate.explode=Explosion
+
+//enchantments and potions
+potion.potency.3=IV
+potion.potency.4=V
+potion.potency.5=VI
+potion.potency.6=VII
+potion.potency.7=VIII
+potion.potency.8=IX
+potion.potency.9=X
+
+enchantment.level.11=XI
+enchantment.level.12=XII
+enchantment.level.13=XIII
+enchantment.level.14=XIV
+enchantment.level.15=XV
+enchantment.level.16=XVI
+enchantment.level.17=XVII
+enchantment.level.18=XVIII
+enchantment.level.19=XIX
+enchantment.level.20=XX
