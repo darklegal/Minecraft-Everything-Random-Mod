@@ -1,5 +1,6 @@
 package roketGamer.everythingRandom;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -9,16 +10,19 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.oredict.OreDictionary;
 import roketGamer.everythingRandom.init.itemInit;
+import roketGamer.everythingRandom.tabs.everythingRandomTab;
 import roketGamer.everythingRandom.proxy.commonProxy;
 import roketGamer.everythingRandom.util.info;
 import roketGamer.everythingRandom.util.oreDictionaryRegistry;
 import roketGamer.everythingRandom.util.handlers.registryHandler;
 
 @Mod(modid = info.MODID, name = info.NAME, version = info.VERSION)
-public class main {
+public class everythingRandomMain {
+	
+	public static final CreativeTabs everythingRandomTab = new everythingRandomTab("everythingrandommaintab");
 	
 	@Instance
-	public static main instance;
+	public static everythingRandomMain instance;
 	
 	@SidedProxy(clientSide = info.CLIENT, serverSide = info.COMMON)
 	public static commonProxy proxy;

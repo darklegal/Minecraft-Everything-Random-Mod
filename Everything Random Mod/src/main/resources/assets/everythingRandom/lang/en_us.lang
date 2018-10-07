@@ -17,7 +17,6 @@ item.ingot_substite.name=Substite Ingot
 item.nugget_substite.name=Substite Nugget
 item.ingot_netherium.name=Netherium Ingot
 item.ingot_voiden.name=Voiden Ingot
-item.ingot_balancium.name=Balancium Ingot
 item.ingot_ordinium.name=Ordinium Ingot
 item.diamond_pure.name=Purified Diamond
 item.emerald_pure.name=Purified Emerald
@@ -43,6 +42,7 @@ tile.ore_ordinium.name=Ordinium Ore
 tile.ore_aetherite.name=Aetherite Ore
 tile.ore_uranium.name=Uranium Ore
 tile.ore_copper.name=Copper Ore
+tile.ore_dense_netherium.name=Concentrated Netherium Ore
 
 //Blocks
 tile.block_randominium_raw.name=Rough Randominium Block
@@ -61,12 +61,12 @@ tile.nether_reactor_core_active.name=Nether Reactor Core (Active)
 tile.nether_reactor_core_used.name=Nether Reactor Core (Used)
 tile.glowing_obsidian.name=Glowing Obsidian
 tile.block_ordinium.name=Ordinium Block
-tile.block_balancium.name=Balancium Block
 tile.block_voiden.name=Voiden Block
 tile.block_netherium.name=Netherium Block
 tile.block_aetherite.name=Aetherite Block
 tile.uranium_box.name=Uranium-235 Box
 tile.block_copper.name=Copper Block
+tile.explosive_crate.name=Explosive Crate
 
 //Dyed Quartz
 tile.quartz_dyed_block_white.name=White Dyed Block of Quartz
@@ -88,7 +88,7 @@ tile.quartz_dyed_block_black.name=Black Dyed Block of Quartz
 
 
 //Sounds
-taucannon.no_ammo=No Ammo (Tau Cannon)
+taucannon.no_ammo=Tau Cannon No Ammo
 taucannon.tau_fire=Tau Cannon Fire
 taucannon.tau_fire_overcharged=Tau Cannon Overcharged Fire
 taucannon.tau_overcharge_beep=Tau Cannon Overcharge Beeping
@@ -116,3 +116,21 @@ enchantment.level.17=XVII
 enchantment.level.18=XVIII
 enchantment.level.19=XIX
 enchantment.level.20=XX
+
+//creative tabs
+itemGroup.everythingrandommaintab=Everything Random!
+
+//inventories and containers
+container.grindstone_hand=Hand-Powered Grindstone
+
+//grindstone wheels
+item.stone_grind_wheel.name=Stone Grindstone Wheel
+item.iron_grind_wheel.name=Iron Grindstone Wheel
+item.gold_grind_wheel.name=Gold Grindstone Wheel
+item.diamond_grind_wheel.name=Diamond Grindstone Wheel
+item.emerald_grind_wheel.name=Emerald Grindstone Wheel
+item.quartz_grind_wheel.name=Quartz Grindstone Wheel
+
+//grindstone wheels made from everything random materials
+item.randominium_grind_wheel.name=Randominium Grindstone Wheel
+item.netherium_grind_wheel.name=Netherium Grindstone Wheel

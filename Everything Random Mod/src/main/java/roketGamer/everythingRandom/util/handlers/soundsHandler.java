@@ -1,11 +1,17 @@
 package roketGamer.everythingRandom.util.handlers;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import roketGamer.everythingRandom.util.info;
 
 public class soundsHandler {
+	
+	//public static final List<SoundEvent> SOUNDS = new ArrayList<SoundEvent>();
 	
 	public static SoundEvent QUESTIONABLE_ETHICS_ADVANCEMENT;
 	public static SoundEvent TAU_NOAMMO;

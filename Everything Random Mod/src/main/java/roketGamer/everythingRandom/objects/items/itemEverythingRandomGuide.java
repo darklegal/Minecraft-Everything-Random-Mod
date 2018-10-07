@@ -1,29 +1,29 @@
-package roketGamer.everythingRandom.objects.tools;
+package roketGamer.everythingRandom.objects.items;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.Item;
 import roketGamer.everythingRandom.everythingRandomMain;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.interfaces.iHasModel;
 
-public class toolSword extends ItemSword implements iHasModel {
+public class itemEverythingRandomGuide extends Item implements iHasModel {
 	
-	public toolSword(String name, ToolMaterial material) {
+	public itemEverythingRandomGuide(String name) {
 		
-		super(material);
 		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(everythingRandomMain.everythingRandomTab);
+		setMaxStackSize(1);
 		
 		itemInit.ITEMS.add(this);
 		
 	}
-	
+
 	@Override
 	public void registerModels() {
 		
 		everythingRandomMain.proxy.registerItemRenderer(this, 0, "inventory");
 		
 	}
-	
+
 }

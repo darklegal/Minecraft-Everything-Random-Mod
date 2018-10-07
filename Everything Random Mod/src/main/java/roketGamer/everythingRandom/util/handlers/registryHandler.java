@@ -2,6 +2,7 @@ package roketGamer.everythingRandom.util.handlers;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -28,6 +29,13 @@ public class registryHandler {
 		event.getRegistry().registerAll(blockInit.BLOCKS.toArray(new Block[0]));
 		
 	}
+	
+	//@SubscribeEvent
+	//public static void onSoundRegister(RegistryEvent.Register<SoundEvent> event) {
+	//	
+	//	event.getRegistry().registerAll(soundsHandler.SOUNDS.toArray(new SoundEvent[0]));
+	//	
+	//}
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {

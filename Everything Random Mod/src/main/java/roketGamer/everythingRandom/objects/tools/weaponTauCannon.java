@@ -12,7 +12,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import net.minecraftforge.client.event.sound.PlaySoundEvent;
-import roketGamer.everythingRandom.main;
+import roketGamer.everythingRandom.everythingRandomMain;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.handlers.soundsHandler;
 import roketGamer.everythingRandom.util.interfaces.iHasModel;
@@ -21,9 +21,9 @@ public class weaponTauCannon extends Item implements iHasModel {
 	
 	public weaponTauCannon(String name) {
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(everythingRandomMain.everythingRandomTab);
 		this.maxStackSize = 1;
 		
 		itemInit.ITEMS.add(this);
@@ -41,7 +41,7 @@ public class weaponTauCannon extends Item implements iHasModel {
 	@Override
 	public void registerModels() {
 		
-		main.proxy.registerItemRenderer(this, 0, "inventory");
+		everythingRandomMain.proxy.registerItemRenderer(this, 0, "inventory");
 		
 	}
 

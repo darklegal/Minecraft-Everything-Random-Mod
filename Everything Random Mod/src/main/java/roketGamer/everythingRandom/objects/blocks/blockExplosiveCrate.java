@@ -6,7 +6,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
-import roketGamer.everythingRandom.main;
+import roketGamer.everythingRandom.everythingRandomMain;
 import roketGamer.everythingRandom.init.blockInit;
 import roketGamer.everythingRandom.init.itemInit;
 import roketGamer.everythingRandom.util.interfaces.iHasModel;
@@ -16,7 +16,7 @@ public class blockExplosiveCrate extends Block  implements iHasModel{
 	public blockExplosiveCrate(String name, Material material, Float resistance, Float hardness, SoundType sound, CreativeTabs tab) {
 		
 		super(material);
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(tab);
 		setHardness(hardness);
@@ -31,7 +31,7 @@ public class blockExplosiveCrate extends Block  implements iHasModel{
 	@Override
 	public void registerModels() {
 		
-		main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		everythingRandomMain.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 		
 	}
 

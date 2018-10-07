@@ -21,10 +21,9 @@ public class itemBlockVariant extends ItemBlock{
 		
 	}
 	
-	@Override
 	public String getUnlocalizedName(ItemStack stack) {
 		
-		return super.getUnlocalizedName() + "_" + ((iMetaName)this.block).getSpecialName(stack);
+		return super.getTranslationKey() + "_" + ((iMetaName)this.block).getSpecialName(stack);
 	}
 
 }

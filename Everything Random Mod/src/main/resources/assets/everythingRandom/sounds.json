@@ -64,6 +64,7 @@
     },
     "crate.explode":
     {
+        "subtitle": "subtitles.entity.generic.explode",
         "sounds": [{"name": "everythingRandom:explosions/explode1", "weight": 2},{"name": "everythingRandom:explosions/explode2", "weight": 2},{"name": "everythingRandom:explosions/explode3", "weight": 2},{"name": "everythingRandom:explosions/explode4", "weight": 2},{"name": "everythingRandom:explosions/explode5", "weight": 2},{"name": "everythingRandom:explosions/explode6", "weight": 2},{"name": "everythingRandom:explosions/explode7", "weight": 2},{"name": "everythingRandom:explosions/explode8", "weight": 2}]
     }
 }

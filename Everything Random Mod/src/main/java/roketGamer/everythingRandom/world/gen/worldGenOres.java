@@ -17,7 +17,6 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.fml.common.IWorldGenerator;
 import roketGamer.everythingRandom.init.blockInit;
-import roketGamer.everythingRandom.objects.blocks.blockOres;
 import roketGamer.everythingRandom.util.handlers.enumHandler;
 
 public class worldGenOres implements IWorldGenerator{
@@ -28,9 +27,11 @@ public class worldGenOres implements IWorldGenerator{
 	private WorldGenerator ore_netherium;
 	private WorldGenerator ore_voiden;
 	private WorldGenerator ore_ordinium;
-	private WorldGenerator ore_aether;
+	//private WorldGenerator ore_aether;
 	private WorldGenerator ore_copper;
-	private WorldGenerator ore_uranium;
+	//private WorldGenerator ore_uranium;
+	private WorldGenerator ore_concentrated_netherium;
+	private WorldGenerator ore_amber;
 
 	public worldGenOres() {
 		
@@ -43,7 +44,9 @@ public class worldGenOres implements IWorldGenerator{
 		ore_voiden = new WorldGenMinable(blockInit.VOIDEN_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.END_STONE));
 		ore_ordinium = new WorldGenMinable(blockInit.ORDINIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
 		ore_copper = new WorldGenMinable(blockInit.COPPER_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
-		ore_uranium = new WorldGenMinable(blockInit.URANIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+		//ore_uranium = new WorldGenMinable(blockInit.URANIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+		ore_concentrated_netherium = new WorldGenMinable(blockInit.DENSE_NETHERIUM_ORE.getDefaultState(), 10, BlockMatcher.forBlock(Blocks.MAGMA));
+		ore_amber = new WorldGenMinable(blockInit.AMBER_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.STONE));
 		
 	}
 	
@@ -52,21 +55,26 @@ public class worldGenOres implements IWorldGenerator{
 		
 		switch(world.provider.getDimension()) {
 		
-		//1,2,3,4 and 5 are going to be the ususal, 5 is rarity, 6 is the lowest the ore spawns, 7 is the highest the ore spawns
+		//1,2,3,4 and 5 are going to be the ususal, 6 is rarity, 7 is the lowest the ore spawns, 8 is the highest the ore spawns
 		
+		//nether
 		case -1:
-			runGenerator(ore_netherium, world, random, chunkX, chunkZ, 3, 98, 128);
+			runGenerator(ore_netherium, world, random, chunkX, chunkZ, 6, 98, 128);
+			runGenerator(ore_concentrated_netherium, world, random, chunkX, chunkZ, 10, 0, 128);
 			break;
-			
+		
+		//overworld
 		case 0:
-			runGenerator(ore_randominium, world, random, chunkX, chunkZ, 2, 10, 30);
+			runGenerator(ore_randominium, world, random, chunkX, chunkZ, 5, 10, 30);
 			runGenerator(ore_ordinium, world, random, chunkX, chunkZ, 2, 10, 30);
 			runGenerator(ore_substite, world, random, chunkX, chunkZ, 3, 0, 45);
 			runGenerator(ore_slimy, world, random, chunkX, chunkZ, 2, 0, 20);
+			runGenerator(ore_amber, world, random, chunkX, chunkZ, 8, 40, 128);
 			break;
 			
+		//end
 		case 1:
-			runGenerator(ore_voiden, world, random, chunkX, chunkZ, 3, 0, 35);
+			runGenerator(ore_voiden, world, random, chunkX, chunkZ, 5, 0, 35);
 			break;
 		
 		}
