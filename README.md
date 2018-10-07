@@ -12,6 +12,7 @@ The goal of the Everything Random mod is to add various random things to Minecra
 - [x] Daymetal and Nightmetal ingots and blocks
 - [x] Randominium ore, bits, nuggets, ingots and blocks
 - [x] Sharpened Swords
+
 **More to come!**
 
 # Things that might be added, maybe not
