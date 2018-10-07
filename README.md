@@ -9,14 +9,8 @@ The goal of the Everything Random mod is to add various random things to Minecra
 # Things planned to be added
 ###### When they are added, there will be a check in the box
 
-- [ ] Lightmetal, Darkmetal, Daymetal and Nightmetal ingots and blocks
+- [ ] Daymetal and Nightmetal ingots and blocks
 - [ ] Randominium ore, bits, nuggets, ingots and blocks
-- [ ] Grindstone to use the Randominium
-- [ ] Dyed Quartz Blocks, Pillars and Chiseled Blocks, Concrete is very saturated and wool is in the middle, dyed quartz is the pastel
-- [ ] Nether Reactor from the early days of Minecraft PE
-- [ ] Void Bin that you can use to delete items
-- [ ] Icy Cobblestone
-- [ ] Abandoned Castles in the tundras and plains
 - [ ] Sharpened Swords
 
 # Things that might be added, maybe not
@@ -36,10 +30,10 @@ The goal of the Everything Random mod is to add various random things to Minecra
 
 
 
-#### Nether Reactor Core Texture
-![NetherReactorCore](https://i.imgur.com/YYhq3OP.png)
-###### A custom mix of the old and new official textures of the Nether Reactor Core
+//#### Nether Reactor Core Texture
+//![NetherReactorCore](https://i.imgur.com/YYhq3OP.png)
+//###### A custom mix of the old and new official textures of the Nether Reactor Core
 
-#### Glowing Obsidian Texture
-![GlowingObsidian](https://i.imgur.com/SxnngGR.png)
-###### A modified version of the standard Obsidian texture to re-create the Glowing Obsidian from Minecraft PE
+//#### Glowing Obsidian Texture
+//![GlowingObsidian](https://i.imgur.com/SxnngGR.png)
+//###### A modified version of the standard Obsidian texture to re-create the Glowing Obsidian from Minecraft PE
