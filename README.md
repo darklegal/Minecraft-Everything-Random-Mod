@@ -24,16 +24,3 @@ The goal of the Everything Random mod is to add various random things to Minecra
 ###### When something shows up here, there's a 100% chance it was added, else it wouldnt be listed here at all
 
 **Nothing Here Yet!**
-
-# Sneak Peaks
-###### Special before-hand looks at things like textures or in-game things
-
-
-
-//#### Nether Reactor Core Texture
-//![NetherReactorCore](https://i.imgur.com/YYhq3OP.png)
-//###### A custom mix of the old and new official textures of the Nether Reactor Core
-
-//#### Glowing Obsidian Texture
-//![GlowingObsidian](https://i.imgur.com/SxnngGR.png)
-//###### A modified version of the standard Obsidian texture to re-create the Glowing Obsidian from Minecraft PE
