@@ -1,10 +1,10 @@
 {
 	"forge_marker": 1,
 	"defaults": {
-		"model": "everythingRandom:ore_dense_netherium"
+		"model": "everythingRandom:fallback_model"
 	},
 	"variants": {
-		"normal": [{}],
-		"inventory": [{}]
+		"normal": [{"model": "everythingRandom:ore_dense_netherium"}],
+		"inventory": [{"model": "everythingRandom:ore_dense_netherium"}]
 	}
 }

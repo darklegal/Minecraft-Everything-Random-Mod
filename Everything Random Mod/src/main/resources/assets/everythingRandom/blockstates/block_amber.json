@@ -1,0 +1,10 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:fallback_model"
+	},
+	"variants": {
+		"normal": [{"model": "everythingRandom:block_amber"}],
+		"inventory": [{"model": "everythingRandom:block_amber"}]
+	}
+}

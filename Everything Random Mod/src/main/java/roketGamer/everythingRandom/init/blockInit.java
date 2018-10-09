@@ -9,6 +9,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import roketGamer.everythingRandom.everythingRandomMain;
 import roketGamer.everythingRandom.objects.blocks.blockBase;
+import roketGamer.everythingRandom.objects.blocks.blockCrystal;
 import roketGamer.everythingRandom.objects.blocks.blockExplosiveCrate;
 import roketGamer.everythingRandom.objects.blocks.blockOre;
 //import roketGamer.everythingRandom.objects.blocks.machines.blockGrindstone;
@@ -26,29 +27,29 @@ public class blockInit {
 	public static final Block NIGHTMETAL_BLOCK = new blockBase("block_nightmetal", Material.IRON, 10F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	public static final Block RANDOMITE_BLOCK_RAW = new blockBase("block_randominium_raw", Material.IRON, 100F, 4F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	public static final Block RANDOMITE_BLOCK_SMOOTH = new blockBase("block_randominium_smooth", Material.IRON, 100F, 4F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block SUBSTITE_BLOCK = new blockBase("block_substite", Material.IRON, 30F, 2F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block SUBSTITE_BLOCK = new blockBase("block_substite", Material.IRON, 30F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	public static final Block ORDINIUM_BLOCK = new blockBase("block_ordinium", Material.IRON, 10F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block VOIDEN_BLOCK = new blockBase("block_voiden", Material.IRON, 10F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block VOIDEN_BLOCK = new blockBase("block_voiden", Material.IRON, 10F, 10F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	public static final Block NETHERIUM_BLOCK = new blockBase("block_netherium", Material.IRON, 10F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	public static final Block COPPER_BLOCK = new blockBase("block_copper", Material.IRON, 10F, 3F, SoundType.METAL, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	//public static final Block URANIUM_BOX = new blockBase("uranium_box", Material.IRON, 2F, 2F, SoundType.METAL, everythingRandomMain.everythingRandomTab);
-	public static final Block AMBER_BLOCK = new blockBase("block_amber", Material.ROCK, 2F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block AMBER_BLOCK = new blockBase("block_amber", Material.ROCK, 2F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.YELLOW);
 	
 	//other
 	public static final Block GLOWING_OBSIDIAN = new blockBase("glowing_obsidian", Material.ROCK, 2000F, 50F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	//public static final Block NETHER_REACTOR_CORE = new blockBase("nether_reactor_core", Material.IRON, 2000F, 50F, SoundType.METAL, everythingRandomMain.everythingRandomTab);
+	public static final Block FALLBACK_MODEL_TEST = new blockOre("fallback_model_test", Material.GROUND, 10000F, 0F, SoundType.LADDER, null, MapColor.STONE);
+	public static final Block POWER_CRYSTAL_RED = new blockCrystal("crystal_red", Material.GLASS, 30F, 1.5F, SoundType.GLASS, everythingRandomMain.everythingRandomTab, MapColor.RED);
 	
 	//ores
-	public static final Block RANDOMITE_ORE = new blockOre("ore_randominium", Material.IRON, 50F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block SUBSTITE_ORE = new blockOre("ore_substite", Material.IRON, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block SLIMY_ORE = new blockOre("ore_slimy", Material.GROUND, 2F, 1.5F, SoundType.SLIME, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block NETHERIUM_ORE = new blockOre("ore_netherium", Material.IRON, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block VOIDEN_ORE = new blockOre("ore_voiden", Material.IRON, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block ORDINIUM_ORE = new blockOre("ore_ordinium", Material.ROCK, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block COPPER_ORE = new blockOre("ore_copper", Material.ROCK, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	//public static final Block URANIUM_ORE = new blockBase("ore_uranium", Material.ROCK, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab);
-	public static final Block DENSE_NETHERIUM_ORE = new blockOre("ore_dense_netherium", Material.IRON, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
-	public static final Block AMBER_ORE = new blockOre("ore_amber", Material.ROCK, 10F, 2F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block RANDOMITE_ORE = new blockOre("ore_randominium", Material.IRON, 50F, 10F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block SUBSTITE_ORE = new blockOre("ore_substite", Material.IRON, 10F, 3F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block SLIMY_ORE = new blockOre("ore_slimy", Material.ROCK, 2F, 1F, SoundType.SLIME, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block NETHERIUM_ORE = new blockOre("ore_netherium", Material.IRON, 10F, 0.4F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block VOIDEN_ORE = new blockOre("ore_voiden", Material.IRON, 10F, 15F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block ORDINIUM_ORE = new blockOre("ore_ordinium", Material.ROCK, 10F, 3F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block COPPER_ORE = new blockOre("ore_copper", Material.ROCK, 10F, 3F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block DENSE_NETHERIUM_ORE = new blockOre("ore_dense_netherium", Material.IRON, 10F, 0.5F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
+	public static final Block AMBER_ORE = new blockOre("ore_amber", Material.ROCK, 10F, 3F, SoundType.STONE, everythingRandomMain.everythingRandomTab, MapColor.STONE);
 	
 	//machines
 

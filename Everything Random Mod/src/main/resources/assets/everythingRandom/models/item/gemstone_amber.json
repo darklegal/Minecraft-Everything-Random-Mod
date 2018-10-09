@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "everythingRandom:items/uranium_ingot"
+        "layer0": "everythingRandom:items/amber_gemstone"
     }
 }

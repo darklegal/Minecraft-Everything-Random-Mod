@@ -1,0 +1,14 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "everythingRandom:fallback_model"
+	},
+	"variants": {
+		"normal": [
+		{"model": "everythingRandom:crystal_red_1"}
+		],
+		"inventory": [
+		{"model": "everythingRandom:crystal_red_1"}
+		]
+	}
+}

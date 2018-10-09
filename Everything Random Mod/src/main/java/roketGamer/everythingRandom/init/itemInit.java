@@ -39,7 +39,6 @@ public class itemInit {
 	public static final Item SUBSTITE_INGOT = new itemBase("ingot_substite");
 	public static final Item NETHERIUM_INGOT = new itemBase("ingot_netherium");
 	public static final Item VOIDEN_INGOT = new itemBase("ingot_voiden");
-	public static final Item BALANCIUM_INGOT = new itemBase("ingot_balancium");
 	public static final Item ORDINIUM_INGOT = new itemBase("ingot_ordinium");
 	//public static final Item URANIUM_235 = new itemBase("uranium_235");
 	public static final Item COPPER_INGOT = new itemBase("ingot_copper");

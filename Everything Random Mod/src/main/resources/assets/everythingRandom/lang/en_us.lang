@@ -23,6 +23,7 @@ item.emerald_pure.name=Purified Emerald
 item.ingot_aetherite.name=Aetherite Ingot
 item.ingot_copper.name=Copper Ingot
 item.uranium_235.name=Uranium-235
+item.gemstone_amber.name=Amber
 
 //Tools and Weapons
 item.tau_cannon.name=Tau Cannon
@@ -43,30 +44,25 @@ tile.ore_aetherite.name=Aetherite Ore
 tile.ore_uranium.name=Uranium Ore
 tile.ore_copper.name=Copper Ore
 tile.ore_dense_netherium.name=Concentrated Netherium Ore
+tile.ore_amber.name=Amber Ore
 
 //Blocks
 tile.block_randominium_raw.name=Rough Randominium Block
 tile.block_randominium_smooth.name=Refined Randominium Block
-tile.block_substite.name=Substite Block
-tile.block_lightmetal.name=Lightmetal Block
-tile.block_darkmetal.name=Darkmetal Block
-tile.block_daymetal.name=Daymetal Block
-tile.block_nightmetal.name=Nightmetal Block
-tile.icycobblestone_low.name=Somewhat Icy Cobblestone
-tile.icycobblestone_medium.name=Partially Icy Cobblestone
-tile.icycobblestone_high.name=Very Icy Cobblestone
-tile.icycobblestone_veryhigh.name=Extremely Icy Cobblestone
+tile.block_substite.name=Block of Substite
+tile.block_daymetal.name=Block of Daymetal
+tile.block_nightmetal.name=Block of Nightmetal
 tile.nether_reactor_core_unused.name=Nether Reactor Core
 tile.nether_reactor_core_active.name=Nether Reactor Core (Active)
 tile.nether_reactor_core_used.name=Nether Reactor Core (Used)
 tile.glowing_obsidian.name=Glowing Obsidian
-tile.block_ordinium.name=Ordinium Block
-tile.block_voiden.name=Voiden Block
-tile.block_netherium.name=Netherium Block
-tile.block_aetherite.name=Aetherite Block
+tile.block_ordinium.name=Block of Ordinium
+tile.block_voiden.name=Block of Voiden
+tile.block_netherium.name=Block of Netherium
 tile.uranium_box.name=Uranium-235 Box
 tile.block_copper.name=Copper Block
 tile.explosive_crate.name=Explosive Crate
+tile.block_amber.name=Block of Amber
 
 //Dyed Quartz
 tile.quartz_dyed_block_white.name=White Dyed Block of Quartz

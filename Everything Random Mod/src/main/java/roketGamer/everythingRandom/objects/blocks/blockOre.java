@@ -9,6 +9,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import roketGamer.everythingRandom.everythingRandomMain;
@@ -51,8 +52,21 @@ public class blockOre extends Block implements iHasModel{
 		{
 			return itemInit.AMBER_GEMSTONE;
 		}
-		else return Item.getItemFromBlock(this);
+		else if (this == blockInit.SLIMY_ORE)
+		{
+			return Items.SLIME_BALL;
+		}
+		return Item.getItemFromBlock(this);
     }
+	
+	public Block getItemDropped1(IBlockState state, Random rand, int fortune)
+	{
+		if (this == blockInit.FALLBACK_MODEL_TEST)
+		{
+			return blockInit.FALLBACK_MODEL_TEST;
+		}
+		else return this;
+	}
 
 	public int quantityDropped(Random random)
     {
@@ -62,7 +76,15 @@ public class blockOre extends Block implements iHasModel{
 		}
 		else if (this == blockInit.AMBER_ORE)
 		{
-			return 1 + random.nextInt(10);
+			return 1 + random.nextInt(3);
+		}
+		else if (this == blockInit.SLIMY_ORE)
+		{
+			return 1 + random.nextInt(5);
+		}
+		else if (this == blockInit.FALLBACK_MODEL_TEST)
+		{
+			return 8;
 		}
 		else return 1;
     }
