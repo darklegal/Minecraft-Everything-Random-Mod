@@ -15,6 +15,7 @@ import roketGamer.everythingRandom.proxy.commonProxy;
 import roketGamer.everythingRandom.util.info;
 import roketGamer.everythingRandom.util.oreDictionaryRegistry;
 import roketGamer.everythingRandom.util.handlers.registryHandler;
+import roketGamer.everythingRandom.util.handlers.soundsHandler;
 
 @Mod(modid = info.MODID, name = info.NAME, version = info.VERSION)
 public class everythingRandomMain {
@@ -39,6 +40,7 @@ public class everythingRandomMain {
 	public static void init(FMLInitializationEvent event) {
 		
 		registryHandler.initRegistries();
+		soundsHandler.registerSounds();
 		
 	}
 	

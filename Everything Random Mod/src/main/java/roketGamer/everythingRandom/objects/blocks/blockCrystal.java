@@ -52,7 +52,7 @@ public class blockCrystal extends Block implements iHasModel{
     }
 	
 	@SideOnly(Side.CLIENT)
-    public BlockRenderLayer getBlockLayer()
+    public BlockRenderLayer getRenderLayer()
     {
         return BlockRenderLayer.TRANSLUCENT;
     }
