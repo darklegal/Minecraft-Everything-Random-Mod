@@ -1,5 +1,5 @@
 
-![Everything Random Logo](https://i.imgur.com/Jzn9LDk.gifv)
+![Everything Random Logo](https://gph.to/2QI522N)
 
 # Goal
 
