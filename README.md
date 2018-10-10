@@ -39,6 +39,20 @@ The goal of the Everything Random mod is to add various random things to Minecra
 #### Very simple guidelines
 
 
+# Do's and Dont's
+###### Guidelines about the code
+- You **may** fork and modify the mod to mess around with things (creating your own "fork" or branch of the mod to tinker with code)
+- You **may** submit a pull request to this repository (if you made modifications to the code you want to be in the mod, will go through a review, and if denied, I will give you the reason(s) why
+- You **may** use portions of code for your own projects
+- You **may** use this code to compare or inspect your own for errors or bugs
+
+- You **may not** redistribute this mod under any circumstances, all links must be to here or the curseforge page
+- You **may not** take and use the assets such as textures and models for your own mod
+- You **may not** take some code from here, change the variable names and call it your own
+
+**Possibly to be expanded upon**
+
+
 # Agreement
 ###### By downloading and/or using this mod you agree to the following
 
