@@ -11,7 +11,7 @@ import roketGamer.everythingRandom.util.info;
 
 public class soundsHandler {
 	
-	//public static final List<SoundEvent> SOUNDS = new ArrayList<SoundEvent>();
+	public static final List<SoundEvent> SOUNDS = new ArrayList<SoundEvent>();
 	
 	public static SoundEvent QUESTIONABLE_ETHICS_ADVANCEMENT;
 	public static SoundEvent TAU_NOAMMO;

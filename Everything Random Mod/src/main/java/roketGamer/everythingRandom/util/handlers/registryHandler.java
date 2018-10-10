@@ -30,12 +30,12 @@ public class registryHandler {
 		
 	}
 	
-	//@SubscribeEvent
-	//public static void onSoundRegister(RegistryEvent.Register<SoundEvent> event) {
-	//	
-	//	event.getRegistry().registerAll(soundsHandler.SOUNDS.toArray(new SoundEvent[0]));
-	//	
-	//}
+	@SubscribeEvent
+	public static void onSoundRegister(RegistryEvent.Register<SoundEvent> event) {
+		
+		event.getRegistry().registerAll(soundsHandler.SOUNDS.toArray(new SoundEvent[0]));
+		
+	}
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {

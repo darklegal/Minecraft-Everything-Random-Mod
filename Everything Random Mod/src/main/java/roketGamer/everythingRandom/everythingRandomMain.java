@@ -40,7 +40,6 @@ public class everythingRandomMain {
 	public static void init(FMLInitializationEvent event) {
 		
 		registryHandler.initRegistries();
-		soundsHandler.registerSounds();
 		
 	}
 	
